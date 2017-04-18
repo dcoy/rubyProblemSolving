@@ -10,4 +10,4 @@ def fizzy(n)
   end
 end
 
-fizzy(*ARGV)
+fizzy(ARGV[0].to_i)
